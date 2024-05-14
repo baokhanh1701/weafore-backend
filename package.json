@@ -1,12 +1,11 @@
 {
-    "name": "weafore-frontend",
-    "private": true,
+    "name": "weafore-backend",
     "version": "0.0.0",
     "type": "module",
     "scripts": {
         "dev": "node index.js",
         "build": "node index.js",
-        "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+        "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
     },
     "dependencies": {
         "antd": "^5.15.3",
